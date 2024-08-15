@@ -1,0 +1,8 @@
+.custom-card {
+  border: 2px solid #000; /* Black border */
+}
+
+.custom-card-img {
+  height: 180px; /* Adjust height as needed */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+}

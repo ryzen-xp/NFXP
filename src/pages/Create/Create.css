@@ -1,0 +1,70 @@
+/* Container and Centering */
+.create-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fff;
+  padding: 20px; /* Added padding to prevent elements from touching edges */
+}
+
+/* Content Box Styling */
+.create-content {
+  background: #fff;
+  padding: 30px; /* Increased padding for more space inside the box */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px; /* Increased max-width for more space */
+  border: 1px solid #000;
+}
+
+/* Form Styling */
+.create-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Added gap between form groups */
+}
+
+/* Form Group Styling */
+.form-group {
+  margin-bottom: 20px; /* Increased margin for more space between groups */
+}
+
+/* Label Styling */
+.form-group label {
+  margin-bottom: 8px; /* Increased margin for better spacing */
+  font-weight: bold;
+  color: #000;
+}
+
+/* Input and Textarea Styling */
+.form-group input,
+.form-group textarea {
+  width: calc(100% - 22px); /* Adjusted width to account for padding and border */
+  padding: 12px; /* Increased padding for better user experience */
+  border: 1px solid #000;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #000;
+}
+
+/* Textarea Specific Styling */
+.form-group textarea {
+  resize: vertical;
+}
+
+/* Button Styling */
+button {
+  background-color: #000;
+  color: #fff;
+  padding: 12px 20px; /* Increased padding for better button appearance */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+  background-color: #333;
+}
